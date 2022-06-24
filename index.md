@@ -1,14 +1,9 @@
-# Primate (formerly KongDash)
-
 > A modern desktop client for [Kong](https://konghq.com/kong/) admin API
-
-[![](screenshot.png)](https://raw.githubusercontent.com/getprimate/primate/main/screenshot.png)
 
 ### How to Install
 
 👉 This information is only for versions v0.3.0 and below. 
-
-👉 The succeding release is still in the final stages of its development. See **For Developers** section below.
+The succeding release is still in the final stages of its development. See **For Developers** section below.
 
 #### On Linux
 _Ubuntu and other Debian distributions:_
