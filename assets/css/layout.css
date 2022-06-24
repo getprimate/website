@@ -1,0 +1,7 @@
+:root {
+    --bs-primary: #EB453D;
+    --bs-dark: #181922;
+    --bs-dark-rgb: 24, 25, 34;
+    --bs-secondary-rgb: 250, 250, 250;
+    --bs-font-sans-serif: 'Inter', system-ui, sans-serif;
+}
