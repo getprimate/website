@@ -16,28 +16,29 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" />
-<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+
+<!-- Font Awesome -->
+<script src="https://kit.fontawesome.com/aa710485a8.js" crossorigin="anonymous"></script>
 
 <!-- Custom layout stylesheets. -->
 <link href="css/layout.css" rel="stylesheet" />
 </head>
 
-<body>
+<body data-bs-spy="scroll" data-bs-target="#nav__headerBar" data-bs-offset="0">
 <header class="fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav id="nav__headerBar" class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
-        <a class="navbar-brand" href="{{ site.url }}"><img src="image/logo-64x64.png" width="48" /></a>
+        <a class="navbar-brand" href="{{ site.url }}"><img src="image/logo-48x48.png" width="32" /></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Features</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Download</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Community</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Documentation</a></li>
+                <li class="nav-item"><a class="nav-link" aria-current="page" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#download">Download</a></li>
+                <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contribute">Contribute</a></li>
             </ul><!-- .navbar-nav.me-auto.mb-2.mb-lg-0 -->
         </div><!-- .collapse.navbar-collapse -->
     </div><!-- .container -->
@@ -49,26 +50,64 @@
 </main>
 
 <footer>
-<div class="container">
+<section class="footer-top">
+<div class="container border-top">
+<div class="spacer py-4"></div>
 <div class="row">
-    <div class="col col-sm-12 col-md-6 col-lg-6 text-white">
-        <div class="py-4">Not an official application. No affiliation with KongHQ.<br />
-        Project maintained by <a href="#">@ajaysreedhar</a></div>
+    <div class="col col-sm-12 col-md-4 col-lg-4">
+        <p>Created with <i class="fa-solid fa-heart text-danger"></i> by <a href="#">@ajaysreedhar</a><br />Website hosted on <a href="#">GitHub Pages</a></p>
     </div><!-- .col -->
-    <div class="col col-sm-12 col-md-6 col-lg-6">
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-flex">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item"><a href="#" class="nav-link"><span class="bi bi-twitter"></span></a></li>
-                    <li class="nav-item"><a href="#" class="nav-link"><span class="bi bi-github"></span></a></li>
-                </ul><!-- .navbar-nav.me-auto.mb-2.mb-lg-0 -->
-            </div><!-- .collapse.navbar-collapse -->
-        </nav>
+
+    <div class="col col-sm-12 col-md-4 col-lg-4">
+        <h6>Resources</h6>
+        <ul class="flat-list">
+            <li><a href="#">Download</a></li>
+            <li><a href="#">Release Notes</a></li>
+            <li><a href="#">Documentation</a></li>
+        </ul>
+    </div><!-- .col -->
+    <div class="col col-sm-12 col-md-4 col-lg-4">
+        
     </div><!-- .col -->
 </div><!-- .row -->
 </div><!-- .container -->
+</section><!-- .footer-top -->
+
+<section class="footer-base">
+<div class="container">
+<div class="row">
+    <div class="col col-sm-12 col-md-6 col-lg-6">Not an official app. No affiliation with <a href="#">Kong HQ</a>.</div><!-- .col -->
+    <div class="col col-sm-12 col-md-6 col-lg-6 text-end">
+        <a href="#"><span class="bi bi-twitter"></span></a>&nbsp;
+        <a href="#"><span class="bi bi-github"></span></a>
+    </div><!-- .col -->
+</div><!-- .row-->
+</div><!-- .container -->
+</section><!-- .footer-base -->
+
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+<script type="text/javascript">
+'use strict';
+const navElement = document.getElementById('nav__headerBar');
+
+window.onscroll = function () { 
+    if (window.scrollY >= window.innerHeight) {
+        navElement.classList.add('navbar-light');
+        navElement.classList.add('bg-light');
+
+        navElement.classList.remove('navbar-dark');
+        navElement.classList.remove('bg-dark');
+    } else {
+        navElement.classList.add('navbar-dark');
+        navElement.classList.add('bg-dark');
+
+        navElement.classList.remove('navbar-light');
+        navElement.classList.remove('bg-light');
+    }
+};
+</script>
 </body>
 </html>

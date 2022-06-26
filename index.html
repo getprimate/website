@@ -3,17 +3,26 @@ layout: default
 title:  "Primate . A Modern Desktop Client for Kong Admins"
 ---
 
-<section class="overview-home">
+<section id="home" class="overview-home">
 <div class="container">
 <div class="row">
     <div class="col col-sm-12 col-md-12 col-lg-12">
         <div class="spacer py-5"></div>
         <h1>A modern dashboard<br />for Kong Admins</h1>
         <h3>Primate (previously known as KongDash)<br />is a desktop client for Kong Admin API.</h3>
-        <p class="py-5">
-            <a class="btn btn-primary" href="#">Coming Soon</a>&nbsp;
-            <a class="btn btn-secondary" href="#">Documentation</a>
+        <p class="pt-5 pb-2">
+            <a class="btn btn-accent text-uppercase" href="#">Download</a>&nbsp;
+            <a class="text-white" href="#"><u>Release Notes</u></a>
         </p>
+
+        <div class="d-flex flex-row text-white">
+            <div class="py-2">Available for </div>
+            <div class="spacer px-1"></div>
+            <div class="px-2"><i class="fa-brands fa-windows display-6"></i></div>
+            <div class="px-2"><i class="fa-brands fa-apple display-6"></i></div>
+            <div class="px-2"><i class="fa-brands fa-linux display-6"></i></div>
+        </div><!-- .d-flex -->
+
     </div><!-- .col -->
 </div><!-- .row -->
 </div><!-- .container -->
@@ -26,108 +35,111 @@ title:  "Primate . A Modern Desktop Client for Kong Admins"
         <img src="image/hero-dashboard.png" width="100%" alt="Primate dashboard" />
     </div><!-- .col -->
 </div><!-- .row -->
+</section><!-- .overview-info -->
 
-<div class="spacer py-5"></div>
+<section id="download" class="overview-info text-center">
+<div class="container">
+<h1 class="display-5">Download</h1>
+<h5 class="text-muted">Version 1.0.0 published on 27 June, 2022</h5>
 
-<div class="row">
-    <div class="col col-sm-12 col-md-12 col-lg-12">
-        <h2>Easy and hassle-free</h2>
-        <h4>No Sophisticated procedures to start<br />
-            managing your Kong instances.</h4>
-    </div><!-- .col -->
-</div><!-- .row -->
-
-<div class="spacer py-5"></div>
+<div class="spacer py-4"></div>
 
 <div class="row">
-    <div class="col col-sm-12 col-md-4 col-lg-4">
-        <p><span class="material-icons ft-glyph">system_update_alt</span></p>
-        <p>Download and install<br />Primate on your computer.</p>
+    <div class="col col-sm-12 col-md-12 col-lg-4">
+        <div class="x-platform-logo"><i class="fa-brands fa-windows"></i></div>
+        <div class="py-4">
+            <h5>Windows</h5>
+            <p><small class="text-muted">64-bit</small></p>
+            <p>Requires Windows 7<br>or higher</p>
+            <p><a href="#" class="btn btn-accent text-uppercase">Download</a><br /><small class="text-muted">Installer Exe</small></p>
+        </div>
     </div><!-- .col -->
-    <div class="col col-sm-12 col-md-4 col-lg-4">
-        <p><span class="material-icons ft-glyph">dvr</span></p>
-        <p>Run Primate just like any<br />other desktop application.</p>
+
+    <div class="col col-sm-12 col-md-12 col-lg-4">
+        <div class="x-platform-logo"><i class="fa-brands fa-apple"></i></div>
+        <div class="py-4">
+            <h5>macOS</h5>
+            <p><small class="text-muted">64-bit</small></p>
+            <p>Requires macOS Yosemite<br>or higher</p>
+            <p><a href="#" class="btn btn-accent text-uppercase">Download</a><br /><small class="text-muted">DMG image</small></p>
+        </div>
     </div><!-- .col -->
-    <div class="col col-sm-12 col-md-4 col-lg-4">
-        <p><span class="material-icons ft-glyph">settings</span></p>
-        <p>Provide the Kong Admin API<br />details in the setup wizard.</p>
+
+    <div class="col col-sm-12 col-md-12 col-lg-4">
+        <div class="x-platform-logo"><i class="fa-brands fa-linux"></i></div>
+        <div class="py-4">
+            <h5>Linux distros</h5>
+            <p><small class="text-muted">64-bit</small></p>
+            <p>Ubuntu 20.04 or higher<br>Fedora 20 or higher</p>
+            <p><a href="#" class="btn btn-accent text-uppercase">Download</a><br /><small class="text-muted">AppImage</small></p>
+            <p><a href="#" class="btn-snapcraft"><img src="image/ft-snapcraft-link.png" height="32px" /></a></p>
+            <p><a href="#">Compressed (tar.gz)</a></p>
+        </div>
     </div><!-- .col -->
 </div><!-- .row -->
 </div><!-- .container -->
 </section><!-- .overview-info -->
 
-<section class="overview-info">
+<section id="features" class="overview-info">
 <div class="container">
     
 <div class="row">
-    <div class="col col-sm-12 col-md-7 col-lg-7"><h2>Manage multiple instanes<br />of Kong Gateway Servers</h2></div><!-- .col -->
-    <div class="col col-sm-12 col-md-5 col-lg-5"><h4>Primate stores the connection information in your computer everytime a new connection is added.</h4></div><!-- .col -->
+    <div class="col col-lg-7 col-md-12 col-sm-12">
+        <h1 class="pe-5 display-5 text-lg-start text-md-center">Store connection settings<br />of multiple Kong instances</h1>
+    </div><!-- .col -->
+    <div class="col col-lg-5 col-md-12 col-sm-12">
+        <h5 class="text-muted text-lg-start text-md-center">Primate stores the connection information in your computer everytime a new connection is added.</h5>
+    </div><!-- .col -->
 </div><!-- .row -->
 
 <div class="spacer py-4"></div>
 
 <div class="row">
-    <div class="col col-sm-12 col-md-8 col-lg-8"><img src="image/ft-gateways-dark.png" alt="Manage multiple connections" width="100%" /></div><!-- .col -->
-    <div class="col col-sm-12 col-md-4 col-lg-4"><img src="image/ft-gateways-light.png" class="thin-frame" width="100%" alt="Manage multiple connections" /></div><!-- .col -->
+    <div class="col col-lg-8 col-md-12 col-sm-12 pb-4"><img src="image/ft-gateways-dark.png" alt="Manage multiple connections" width="100%" /></div><!-- .col -->
+    <div class="col col-lg-4 col-md-12 col-sm-12"><img src="image/ft-gateways-light.png" class="thin-frame" width="100%" alt="Manage multiple connections" /></div><!-- .col -->
 </div><!-- .row -->
 
 </div><!-- .container -->
 </section><!-- .overview-info -->
 
-<section class="overview-info">
+<section class="overview-info text-center">
 <div class="container">
-
-<div class="row text-center">
-    <div class="col col-sm-12 col-md-12 col-lg-12">
-        <h2>Improved features</h2>
-        <h4>New features added. This text will be changed.</h4>
-    </div><!-- .col -->
-</div><!-- .row -->
-
-<div class="spacer py-4"></div>
-
 <div class="row">
-    <div class="col col-sm-12 col-md-4 col-lg-4">
-        <div class="card me-4">
-            <img src="image/ft-card-top-1.png" class="card-img-top" alt="Card image">
-            <div class="card-body">
-                <h5 class="card-title">Manage Kong objects</h5>
-                <p class="card-text">Manage services, routes plugins, upstreams and more.</p>
-              </div>
-        </div><!-- .card -->
+    <div class="col col-lg-4 col-md-12 col-sm-12">
+        <div class="px-5">
+        <h1 class="py-4"><i class="fa-solid fa-chart-column display-4 text-primary"></i></h1>
+        <h5>Overview Kong configuration</h5>
+        <p>Get insights to configurations, shared dictionaries, metrics and more.</p>
+        </div><!-- .px-5 -->
     </div><!-- .col -->
 
-    <div class="col col-sm-12 col-md-4 col-lg-4">
-        <div class="card mx-2">
-            <img src="image/ft-card-top-2.png" class="card-img-top" alt="Card image">
-            <div class="card-body">
-                <h5 class="card-title">Search by tags</h5>
-                <p class="card-text">Search services, routes, plugins and other objects by tags.</p>
-              </div>
-        </div><!-- .card -->
+    <div class="col col-lg-4 col-md-12 col-sm-12">
+        <div class="px-5">
+        <h1 class="py-4"><i class="fa-solid fa-magnifying-glass-chart display-4 text-primary"></i></h1>
+        <h5>Search objects by tags</h5>
+        <p>Search core configuration object by tagged attributes.</p>
+        </div><!-- .px-5 -->
     </div><!-- .col -->
 
-    <div class="col col-sm-12 col-md-4 col-lg-4">
-        <div class="card ms-4">
-            <img src="image/ft-card-top-3.png" class="card-img-top" alt="Card image">
-            <div class="card-body">
-                <h5 class="card-title">Personalise with themes</h5>
-                <p class="card-text">Select from system themes or make you own. <a href="#">Learn How</a>.</p>
-              </div>
-        </div><!-- .card -->
+    <div class="col col-lg-4 col-md-12 col-sm-12">
+        <div class="px-5">
+        <h1 class="py-4"><i class="fa-solid fa-swatchbook display-4 text-primary"></i></h1>
+        <h5>Customise with themes</h5>
+        <p>Personalise the dashboard view with the provided themes, or with your own. <br /><a href="#">Learn how</a>.</p>
+        </div><!-- .px-5 -->
     </div><!-- .col -->
 </div><!-- .row -->
 
 </div><!-- .container -->
 </section><!-- .overview-info -->
 
-<section class="overview-info">
+<section id="contribute" class="overview-info">
 <div class="container">
 <div class="info-plate">
 <div class="row">
     <div class="col col-sm-12 col-md-8 col-lg-8">
-        <h2>Contribute</h2>
-        <h4>Primate is powered by open-source</h4>
+        <h1 class="display-5">Contribute</h1>
+        <h5 class="text-muted">Primate is powered by open-source</h5>
         <div class="spacer py-4"></div>
         <p>Support the development with <a href="#">feedbacks</a><br />or even better with <a href="#">pull requests.</a></p>
         <p class="py-4">
