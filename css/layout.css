@@ -1,27 +1,41 @@
 
 :root {
+    --bs-body-color: rgb(3, 6, 11);
     --bs-dark-rgb: 24, 25, 34;
     --bs-dark: #181922;
-    --bs-primary: #eb453d;
+    --bs-success: #179221;
+
+    --pw_accent-color: #eb453d;
 
     --pw_primary-fg: #212121;
-    --pw_secondary_fg: #888a99;
+    --pw_secondary-fg: #888a99;
 
     --pw_primary-bg: #181922;
     --pw_secondary-bg: #363848;
 
     --pw_corner-radius: 12px;
+    --pw_corner-color: rgba(0,0,0,.125);
 }
 
 body {
     font-family: 'Inter', system-ui, -apple-system, sans-serif;
 }
 
+main {
+    display: block;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: var(--pw_accent-color);
+}
+
 section.overview-home {
     display: block;
     width: 100%;
     height: 100vh;
-    padding-top: 56px;
+    padding-top: 16.5vh;
     background-color: var(--bs-dark);
     background-image: url('../image/bg-home-fixed.png');
     background-position: top 56px left 0;
@@ -38,35 +52,20 @@ section.overview-home h1 {
 
 section.overview-home h3 {
     font-size: 1.6rem;
-    color: var(--pw_secondary_fg);
+    color: var(--pw_secondary-fg);
 }
 
 section.overview-info {
-    padding: 114px 0;
-}
-
-section.overview-info h2 {
-    font-size: 3rem;
-    font-weight: 600;
-}
-
-section.overview-info h4 {
-    font-size: 1.5rem;
-    font-weight: 500;
-    color: var(--pw_secondary_fg);
-}
-
-section.overview-info p {
-    font-size: 1.2rem;
+    padding: 85px 0;
 }
 
 .ft-glyph {
-    color: var(--bs-primary);
+    color: var(--pw_accent-color);
     font-size: 3.6rem;
 }
 
 img.thin-frame {
-    border: 1px solid var(--pw_secondary-bg);
+    border: 1px solid var(--pw_corner-color);
     border-radius: var(--pw_corner-radius);
 }
 
@@ -92,11 +91,67 @@ section.overview-info .info-plate {
 }
 
 footer {
-    background: var(--bs-primary);
-    color: #FFFFFF
+    display: block;
+    font-size: 0.9rem;
+}
+
+footer .footer-top {
+    padding: 56px 0;
+}
+
+footer .footer-top .material-icons {
+    font-size: 1rem;
+    color: var(--pw_accent-color);
+}
+
+footer .footer-base {
+    background: var(--bs-dark);
+    color: #FFFFFF;
+    padding: 12px 0;
 }
 
 footer .bi {
     color: #FFFFFF;
-    font-size: 1.8rem;
+    font-size: 1rem;
+}
+
+ul.flat-list {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+ul.flat-list li {
+    display: block;
+    padding: 5px 0;
+}
+
+footer ul.flat-list a {
+    color: var(--pw_secondary-fg);
+}
+
+.x-platform-logo {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    display: block;
+    border-radius: 50%;
+    border: 5px solid var(--pw_secondary-fg);
+    padding: 25px 15px;
+}
+
+.x-platform-logo .fa-brands {
+    font-size: 5.3rem;
+    color: var(--bs-secondary);
+}
+
+.btn-snapcraft {
+    background-color: #252525;
+    padding: 5px 0;
+    border-radius: var(--pw_corner-radius);
+}
+
+.btn.btn-accent {
+    background-color: var(--pw_accent-color);
+    color: #FFFFFF;
 }
