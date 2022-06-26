@@ -44,6 +44,7 @@ section.overview-home {
     background-repeat: no-repeat;
 }
 
+/*
 section.overview-home h1 {
     font-size: 3.2rem;
     font-weight: 600;
@@ -54,6 +55,7 @@ section.overview-home h3 {
     font-size: 1.6rem;
     color: var(--pw_secondary-fg);
 }
+*/
 
 section.overview-info {
     padding: 85px 0;
