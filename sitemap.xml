@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url>
+    <loc>https://www.getprimate.xyz</loc>
+    <image:image><image:loc>https://www.getprimate.xyz/image/hero-dashboard.png</image:loc></image:image>
+    <image:image><image:loc>https://www.getprimate.xyz/image/ft-gateways-dark.png</image:loc></image:image>
+    <image:image><image:loc>https://www.getprimate.xyz/image/og-header.png</image:loc></image:image>
+    <image:image><image:loc>https://www.getprimate.xyz/image/logo-64x64.png</image:loc></image:image>
+    <image:image><image:loc>https://www.getprimate.xyz/image/logo-256x256.png</image:loc></image:image>
+    <image:image><image:loc>https://www.getprimate.xyz/image/logo-512x512.png</image:loc></image:image>
+    <lastmod>2022-07-01</lastmod>
+</url>
+<url>
+    <loc>https://www.getprimate.xyz/#download</loc>
+    <lastmod>2022-07-01</lastmod>
+</url>
+<url>
+    <loc>https://www.getprimate.xyz/#features</loc>
+    <lastmod>2022-07-01</lastmod>
+</url>
+<url>
+    <loc>https://www.getprimate.xyz/#contribute</loc>
+    <lastmod>2022-07-01</lastmod>
+</url>
+</urlset>
