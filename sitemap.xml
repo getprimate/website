@@ -8,6 +8,10 @@
     <image:image><image:loc>https://www.getprimate.xyz/image/logo-64x64.png</image:loc></image:image>
     <image:image><image:loc>https://www.getprimate.xyz/image/logo-256x256.png</image:loc></image:image>
     <image:image><image:loc>https://www.getprimate.xyz/image/logo-512x512.png</image:loc></image:image>
+    <image:image><image:loc>https://www.getprimate.xyz/static/scr-desktop-mac-1.png</image:loc></image:image>
+    <image:image><image:loc>https://www.getprimate.xyz/static/scr-desktop-linux-1.png</image:loc></image:image>
+    <image:image><image:loc>https://www.getprimate.xyz/static/scr-desktop-linux-2.png</image:loc></image:image>
+    <image:image><image:loc>https://www.getprimate.xyz/static/scr-desktop-win-1.png</image:loc></image:image>
     <lastmod>2022-07-01</lastmod>
 </url>
 <url>
