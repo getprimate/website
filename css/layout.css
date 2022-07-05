@@ -4,6 +4,7 @@
     --bs-dark-rgb: 24, 25, 34;
     --bs-dark: #181922;
     --bs-success: #179221;
+    --bs-secondary-rgb: 255, 224, 200;
 
     --pw_accent-color: #eb453d;
 
@@ -42,6 +43,36 @@ section.overview-home {
     background-position: top 56px left 0;
     background-attachment: fixed;
     background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section.overview-content {
+    display: block;
+    min-height: 900px;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--bs-dark);
+}
+
+section.overview-accent {
+    display: block;
+    width: 100%;
+    padding-top: 16.5vh;
+    background-color: var(--pw_accent-color);
+}
+
+section.overview-accent img.pw-hero {
+    width: 100%;
+    max-width: 1920px;
+}
+
+div.container.fill-laptop {
+    height: 100%;
+    padding-top: 16.5vh;
+    background-image: url('../image/bg-laptop-fixed.png');
+    background-position: bottom center;
+    background-attachment:scroll;
+    background-size: 97%;
     background-repeat: no-repeat;
 }
 
@@ -148,4 +179,16 @@ footer ul.flat-list a {
 
 h1.display-5 {
     font-weight: 500;
+}
+
+.rounded-4 {
+    border-radius: 0.75rem;
+}
+
+.rounded-5 {
+    border-radius: 1rem;
+}
+
+.rounded-6 {
+    border-radius: 1.5rem;
 }
