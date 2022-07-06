@@ -202,21 +202,3 @@ h1.display-5 {
 .rounded-6 {
     border-radius: 1.5rem;
 }
-
-@media (min-width: 992px) { 
-
-    section.overview-home {
-        display: block;
-        min-height: 900px;
-        width: 100%;
-        height: 100vh;
-        padding-top: 16.5vh;
-        background-color: var(--bs-dark);
-        background-image: url('../image/bg-home-fixed.png');
-        background-position: top 56px left 0;
-        background-attachment: fixed;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-
-}
