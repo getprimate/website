@@ -32,6 +32,11 @@ a {
     color: var(--pw_accent-color);
 }
 
+button.btn,
+a.btn {
+    border-radius: var(--pw_corner-radius);
+}
+
 section.overview-home {
     display: block;
     min-height: 900px;
