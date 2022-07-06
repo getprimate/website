@@ -18,10 +18,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: "Primate . A Moder Desktop Client for Kong Admins"
+title: "A Modern Dashboard for Kong Gateway Admins | Primate"
 email: ajaysreedhar05@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Primate is a modern desktop client for Kong Admins.
+description: "Primate is a modern desktop client for Kong Admin API"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.getprimate.xyz" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: getprimate
