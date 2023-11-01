@@ -1,11 +1,17 @@
 <div align="center">
-    <img src="https://raw.githubusercontent.com/getprimate/primate/main/logo-banner.png" alt="Primate Logo" height="128" />
+    <img src="logo-banner.png" alt="Primate Logo" height="128" />
     <p>Primate (formerly KongDash) is a desktop client for Kong Admin API</p>
     <p><a href="https://www.getprimate.xyz">getprimate.xyz</a></p>
-    <p><img src="https://raw.githubusercontent.com/getprimate/primate/main/screenshot.png" alt="Primate Screenshot" /></p>
+    <p><img src="screenshot.png" alt="Primate Screenshot" /></p>
 </div>
 
 ---
+
+## Version Compatibility
+
+| Primate version | Kong Admin API versions |
+|-----------------|-------------------------|
+| 1.0.0 - 1.1.0   | `2.7.x` `2.8.x`         |
 
 ## :package: Download and Install 
 
@@ -14,8 +20,8 @@ Builds are available for major desktop operating systems.
 #### On Windows
 Download the [latest](https://github.com/getprimate/primate/releases/latest) executable setup file and run it.
 
-#### On Mac OS X
-Download and open the [latest](https://github.com/getprimate/primate/releases/latest) .dmg image, move the app to /Applications.
+#### On macOS
+Download and open the [latest](https://github.com/getprimate/primate/releases/latest) DMG file, move the app to /Applications.
 
 #### On Linux
 Primate is available as AppImage and tar.gz archive for all popular Linux distributions. 
@@ -37,6 +43,8 @@ There are several ways to support development:
 
 - Provide feedbacks and suggest improvements.
 - Contribute to the development with pull requests.
+
+For a complete overview, see the [contributing](CONTRIBUTING.md) guide.
 
 
 ### For Developers
@@ -69,4 +77,14 @@ Run `$ yarn run clean` to clean the output directories.
 _Currently, compiling to non-native binary is disabled._
 
 ## :spiral_notepad: License
-MIT License. See [LICENSE](https://github.com/getprimate/primate/blob/main/LICENSE).
+MIT License. See [LICENSE](LICENSE).
+
+## :raised_hands: Supporters
+
+<a href="https://www.jetbrains.com/community/opensource/#support" target="_blank">
+    <img src="https://resources.jetbrains.com/storage/products/company/brand/logos/jb_square.png" alt="JetBrains Black Box Logo logo." height="64">
+</a>
+&nbsp; &nbsp;
+<a href="https://docs.gitbook.com/pricing/plans/non-profit-and-open-source-discounts" target="_blank">
+    <img src="https://2775338190-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FNkEGS7hzeqa35sMXQZ4X%2Flogo%2FuSFZ1Ridsvf6xSX9vTQ1%2FLockup-PrimaryBlue%20-%20Spaced.svg?alt=media" height="64">
+</a>
